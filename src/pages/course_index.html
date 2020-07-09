@@ -1,0 +1,55 @@
+---
+layout: promo
+subject: 40% Off On Labor Day
+percentage: 40
+---
+
+<container>
+  <row class="collapse header">
+    <columns small="12" large="12">
+      <h1 class="text-center">{{ boxingDay.title }}</h1>
+    </columns>
+  </row>
+  <row class="collapse menu">
+    <columns></columns>
+    <columns small="8" large="8">
+      <center>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </center>
+    </columns>
+    <columns></columns>
+  </row>
+  <row>
+    <columns small="12" large="12">Home</columns>
+  </row>
+  {{#each boxingDay.products}}
+  <row class="collapse">
+    <columns small="6" large="6" valign="middle">
+      <h2 class="text-center">{{ this.title }}</h2>
+    </columns>
+    <columns small="6" large="6">
+      <center>
+        <a href="{{ this.product_url }}"><img src="{{ this.image_url }}"/></a>
+      </center>
+    </columns>
+  </row>
+  {{/each}}
+
+  <spacer size="100"> </spacer>
+  <row>
+    <columns small="6" class="small-offset-6" large="12">
+      <h4>Shop for {{ percentage }} % off</h4>
+      <spacer size="40"></spacer>
+      {{#bold}}
+      Bolded text here
+      {{/bold}}
+
+      {{#mainButton}}
+      Visit homepage
+      {{/mainButton}}
+    </columns>
+  </row>
+</container>
