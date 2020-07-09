@@ -72,13 +72,13 @@ $h3-font-size: 28px;
 $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
-$header-margin-bottom: 0; // remove margin on header
-$paragraph-margin-bottom: 0;
+$header-margin-bottom: 0; // removed default margin from all h tags
+$paragraph-margin-bottom: 0; // removed default margin from p tags
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;
 $lead-line-height: 1.6;
-$text-padding: 0;
+$text-padding: 0; // removed default margin
 $subheader-lineheight: 1.4;
 $subheader-color: $dark-gray;
 $subheader-font-weight: $global-font-weight;
