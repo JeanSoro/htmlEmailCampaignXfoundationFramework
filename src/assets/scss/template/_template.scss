@@ -143,7 +143,7 @@ body,
 
 // End of Deal of the day section
 
-// Start of Content Area section
+// Start of Main Content Area section
 
 .content_area {
   background: #f1f4f7;
@@ -164,10 +164,10 @@ body,
     .columns {
       th {
         padding: 20px; //top right bottom left exterior column padding
-
       }
 
       &>table {
+        // prevents content from expanding as a result of padding adding up
         max-width: 568px;
         table-layout: fixed;
       }
@@ -217,11 +217,11 @@ body,
         font-weight: 600;
         padding-bottom: 10px;
         color: #334755;
-
       }
 
     }
 
+    // class to align button center
     .center-fix {
       min-width: 0 !important;
     }
@@ -244,10 +244,13 @@ body,
       }
     }
 
+    //last offer section
+
     &.last_offer {
 
       .group-icons {
         width: 190px;
+        //center icons
         margin: 0 auto;
         padding-bottom: 0;
       }
@@ -258,6 +261,7 @@ body,
         font-size: 16px;
         padding-bottom: 20px;
         text-align: center;
+        text-transform: Uppercase;
       }
 
       p {
@@ -268,17 +272,18 @@ body,
         text-align: center;
       }
     }
+    // end of last offer section
 
   }
 
 }
 
-// End of Content Area section
+// End of Main Content Area section
 
 .footer_top {
   background: #222d37;
   background-color: #222d37;
-  color: white;
+  color: #fff;
 
   &>tbody>tr {
     vertical-align: middle;
@@ -305,7 +310,7 @@ body,
     display: block;
     font-size: 14px;
     hyphens: none;
-    color: white;
+    color: #fff;
     padding-left: 10px;
   }
 
@@ -313,13 +318,13 @@ body,
     display: block;
     font-size: 12px;
     hyphens: none;
-    color: white;
+    color: #fff;
     padding-left: 10px;
   }
 
   .info_section>table>tbody>tr>th {
     padding-left: 10px;
-    color: white;
+    color: #fff;
   }
 
   .store_logos {
@@ -380,3 +385,11 @@ body,
         display: table-cell !important;   
     }
 }
+
+
+// An alternate way to fix centering the "see deal" button is to add a class to the center tag 
+// holding said button that sets min-width to 0 it also works for the group-icons
+
+// .center-fix {
+//     min-width: 0 !important;
+// }
