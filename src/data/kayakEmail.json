@@ -1,8 +1,8 @@
 {
   "title":"Fly To Englad with less than $700 round trips plus more!",
   "dealOfTheDay": {
-    "location": "England",
-    "description": "Hotel and car rental.Use promo code TGIF110 to save. Price reflects TORONTO departures. Other cities available.",
+    "location": "London, England",
+    "description": "Hotel and car rental. Use promo code TGIF110 to save. Price reflects TORONTO departures. Other cities available.",
     "savings": "Save $110 with code",
     "tinyInfo":"Gate 2 Travel",
     "price": "549.99",
@@ -28,7 +28,7 @@
       "tinyUrl":"orientexpress.com",
       "price": "899.99",
       "ctaLink":"#",
-      "image": "/assets/img/kayak_files/china.png"
+      "image": "/assets/img/kayak_files/china.jpg"
     },
     {
       "location": "Cancun",

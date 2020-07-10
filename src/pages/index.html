@@ -7,16 +7,15 @@ subject: Great Deals Today!
   <row class="deal_of_day">
     <columns>
       <h2>Deal of The Day</h2>
-      <img src="{{ root }}/assets/img/kayak_files/ireland.png" />
+      <img src="{{kayakEmail.dealOfTheDay.image}}" />
       <p>
-        London, England: use promo code TGIF110 to save. Price reflects TORONTO
-        departures. Other cities available.
+        {{kayakEmail.dealOfTheDay.location}}: {{kayakEmail.dealOfTheDay.description}}
       </p>
-      <span class="save_amount">Save $110 with code</span>
-      <span class="tiny_info">Gate 1 Travel</span>
-      <span class="price">$549.99</span>
+      <span class="save_amount">{{kayakEmail.dealOfTheDay.savings}}</span>
+      <span class="tiny_info">{{kayakEmail.dealOfTheDay.tinyInfo}}</span>
+      <span class="price">${{kayakEmail.dealOfTheDay.price}}</span>
       <center>
-        <a href="#" class="button">Buy Now</a>
+        <a href="{{kayakEmail.dealOfTheDay.ctaLink}}" class="button">Buy Now</a>
       </center>
     </columns>
   </row>
@@ -25,21 +24,22 @@ subject: Great Deals Today!
 <container>
   <row class="content_area">
     <columns class="first_offer">
+    {{#each kayakEmail.offers}}
       <row class="single_offer">
         <columns>
-          <img src="{{ root }}/assets/img/kayak_files/cancun.png" />
+          <img src="{{this.image}}" />
           <p>
-            Turks and Caicos: 4 nights with KLM and Melody Exclusive Turks Stays. Price reflects MONTREAL departure,
-            other cities available.
+           {{this.location}}: {{this.description}}
           </p>
-          <span class="save_amount">Save up to 75% with code</span>
-          <span class="tiny_info">presidentialtrips.ca</span>
-          <span class="price">$699.99</span>
+          <span class="save_amount">{{this.savings}}</span>
+          <span class="tiny_info">{{this.tinyUrl}}</span>
+          <span class="price">${{this.price}}</span>
           <center class="center-fix">
-            <a href="#" class="button">Book Now</a>
+            <a href="{{this.ctaLink}}" class="button">Book Now</a>
           </center>
         </columns>
       </row>
+      {{/each}}
     </columns>
   </row>
 </container>
