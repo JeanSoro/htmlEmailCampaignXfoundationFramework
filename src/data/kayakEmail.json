@@ -1,0 +1,43 @@
+{
+  "title":"Fly To Englad with less than $700 round trips plus more!",
+  "dealOfTheDay": {
+    "location": "England",
+    "description": "Hotel and car rental.Use promo code TGIF110 to save. Price reflects TORONTO departures. Other cities available.",
+    "savings": "Save $110 with code",
+    "tinyInfo":"Gate 2 Travel",
+    "price": "549.99",
+    "ctaLink":"#",
+    "image": "/assets/img/kayak_files/london.png"
+  },
+
+
+  "offers": [
+    {
+      "location": "Turks and Caicos",
+      "description": "4 nights with KLM and Melody Exclusive Turks Stays. Price reflects MONTREAL departure, other cities available.",
+      "savings":"Save up to 65%",
+      "tinyUrl":"relaxedvibestrips.ca",
+      "price": "699.99",
+      "ctaLink":"#",
+      "image": "/assets/img/kayak_files/cancun.png"
+    },
+    {
+      "location": "China",
+      "description": "Spend 7 nights in the heart of Beinjing. Price reflects VANCOUVER departure, other cities available.",
+      "savings":"Save up to 77%",
+      "tinyUrl":"orientexpress.com",
+      "price": "899.99",
+      "ctaLink":"#",
+      "image": "/assets/img/kayak_files/china.png"
+    },
+    {
+      "location": "Cancun",
+      "description": "4 nights with KLM and Melody Exclusive Turks Stays. Price reflects MONTREAL departure, other cities available.",
+      "savings":"Save up to 80%",
+      "tinyUrl":"cozyconditions.com",
+      "price": "459.99",
+      "ctaLink":"#",
+      "image": "/assets/img/kayak_files/cancun.png"
+    }
+  ]
+}
