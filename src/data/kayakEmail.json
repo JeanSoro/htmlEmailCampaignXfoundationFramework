@@ -7,7 +7,7 @@
     "tinyInfo":"Gate 2 Travel",
     "price": "549.99",
     "ctaLink":"#",
-    "image": "/assets/img/kayak_files/london.png"
+    "image": "https://i.imgur.com/Y3tf9Wc.png"
   },
 
 
@@ -19,7 +19,7 @@
       "tinyUrl":"relaxedvibestrips.ca",
       "price": "699.99",
       "ctaLink":"#",
-      "image": "/assets/img/kayak_files/cancun.png"
+      "image": "https://i.imgur.com/wsDHtOB.png"
     },
     {
       "location": "China",
@@ -28,7 +28,7 @@
       "tinyUrl":"orientexpress.com",
       "price": "899.99",
       "ctaLink":"#",
-      "image": "/assets/img/kayak_files/china.jpg"
+      "image": "https://i.imgur.com/Ie4eQJM.jpg"
     },
     {
       "location": "Cancun",
@@ -37,7 +37,7 @@
       "tinyUrl":"cozyconditions.com",
       "price": "459.99",
       "ctaLink":"#",
-      "image": "/assets/img/kayak_files/cancun.png"
+      "image": "https://i.imgur.com/wsDHtOB.png"
     }
   ]
 }
