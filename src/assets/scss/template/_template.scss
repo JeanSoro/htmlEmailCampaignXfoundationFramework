@@ -5,7 +5,8 @@ body,
 .body {
   background: #e4e5ea;
   background-color: #e4e5ea;
-  padding-bottom: 300px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .header-section {
@@ -423,16 +424,68 @@ body,
   background: #14181c;
   background-color: #14181c;
 
+  &>tbody>tr>th {
+    padding-left: 30px !important;
+    padding-bottom: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+  }
+
   .lower_links {
+
     &>tbody>tr>th>table>tbody>tr>th {
       text-align: center;
 
       a {
         color: #fff;
-        font-size: 14px;
+        font-size: 13px;
+        transition: all .2s ease-in-out;
+        margin-right: 10px;
+
+        &:nth-child(4) {
+          margin-right: 0;
+        }
+
+        &:hover {
+          color: $primary-color;
+        }
       }
     }
   }
+
+  .privacy_notice {
+
+    th {
+      padding-bottom: 0 !important;
+    }
+
+    &>tbody>tr>th>table>tbody>tr>th {
+      padding-bottom: 30px !important;
+    }
+
+    p {
+      color: #a0a1a3;
+      font-size: 14px;
+    }
+  }
+
+  .copyright_info,
+  .address_info {
+    th {
+      padding-bottom: 0px;
+    }
+
+    .columns {
+      &>table>tbody>tr>th {
+        color: #86888a;
+        font-size: 13px;
+        font-weight: 500;
+        padding-bottom: 0px;
+      }
+    }
+  }
+
+
 }
 
 // Footer bottom section ends
